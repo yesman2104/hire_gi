@@ -1,13 +1,13 @@
 var PageComponent = require("ds.base/PageComponent");
 
-var HelloWorldServer = PageComponent.create({
+var TestComponentServer = PageComponent.create({
 	"/": function(attributes, vars) {
 		return new StatusResponse('good', {
-			message: "Hello my world"
+			message: "Welcome to my Test Component"
 		});
 	},
 	
-	type: "HelloWorldServer"
+	type: "TestComponentServer"
 });
 
-module.exports = HelloWorldServer;
+module.exports = TestComponentServer;

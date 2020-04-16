@@ -2,9 +2,9 @@
 
 <definition>
 {
-  id: "hello_world",
-  label: "Example - Hello World",
-  className: "HelloWorldServer",
+  id: "test_component",
+  label: "Test Component",
+  className: "TestComponentServer",
   renderable: "true"
 }
 </definition>
@@ -12,9 +12,9 @@
 <script>
 	exports.component = ComponentUI.create({
 		onLoad: function(data) {
-			this.container.html("Message from HelloWorldServer: " + data.message);
+			this.container.html("This is test component: " + data.message);
 		},
 
-		className: "HelloWorldClient"
+		className: "TestComponentServer"
 	});
 </script>
