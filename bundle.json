@@ -1,6 +1,6 @@
 {
    "autoload": [ ],
-   "bundle_name": "hire_gi",
+   "bundle_name": "test_component",
    "dependencies": [
       {
          "id": "ds.base",
