@@ -1,0 +1,22 @@
+{
+   "autoload": [ ],
+   "bundle_name": "hire_gi",
+   "dependencies": [
+      {
+         "id": "ds.base",
+         "version": "1.14.0"
+      }
+   ],
+   "icon": "fontawesome:graduation-cap",
+   "icon_color": "#231f20",
+   "id": "ds.hire_gi",
+   "page_banner": "",
+   "parametrics_form": "",
+   "platform_version": "",
+   "schema_version": "0",
+   "shell_layout": "",
+   "theme": "331e26674a6f4e2d81b9bdc9138a80f5",
+   "title": "Hire GI",
+   "vendor": "ds",
+   "version": "0.4.0"
+}
