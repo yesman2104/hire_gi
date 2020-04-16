@@ -9,7 +9,7 @@
    ],
    "icon": "fontawesome:graduation-cap",
    "icon_color": "#231f20",
-   "id": "ds.test_component",
+   "id": "dev.test_component",
    "page_banner": "",
    "parametrics_form": "",
    "platform_version": "",
@@ -17,6 +17,6 @@
    "shell_layout": "",
    "theme": "",
    "title": "Test Component",
-   "vendor": "ds",
+   "vendor": "dev",
    "version": "0.4.0"
 }
